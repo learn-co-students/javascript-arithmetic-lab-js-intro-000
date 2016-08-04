@@ -10,25 +10,25 @@ function preserveDecimal(n) {
 
 function add(a, b) {
   a = preserveDecimal(a);
-  b = preserveDecimal(b):
+  b = preserveDecimal(b);
   return a + b;
 }
 
 function subtract(a, b) {
   a = preserveDecimal(a);
-  b = preserveDecimal(b):
+  b = preserveDecimal(b);
   return a - b;
 }
 
 function multiply(a, b) {
   a = preserveDecimal(a);
-  b = preserveDecimal(b):
+  b = preserveDecimal(b);
   return a * b;
 }
 
 function divide(a, b) {
   a = preserveDecimal(a);
-  b = preserveDecimal(b):
+  b = preserveDecimal(b);
   return a / b;
 }
 
