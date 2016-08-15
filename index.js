@@ -1,7 +1,3 @@
-var a, b;
-a = Math.floor(Math.random() * 1000)
-b = Math.floor(Math.random() * 1000)
-
 function add(a, b) {
   return (a + b);
 }
@@ -26,10 +22,10 @@ function dec(a) {
   return (a - 1);
 }
 
-function makeInt("a",10) {
-  return (parseInt(a));
+function makeInt(a) {
+  return (parseInt(a, 10));
 }
 
-function preserveDecimal("a") {
+function preserveDecimal(a) {
   return (parseFloat(a));
 }
