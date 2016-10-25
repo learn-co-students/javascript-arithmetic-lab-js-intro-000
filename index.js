@@ -1,21 +1,17 @@
 function add (a,b){
-c=a+b;
-return c}
+return (a+b)}
 
 
 function subtract (a,b){
-c=a-b;
-return c}
+return (a-b)}
 
 
 function multiply (a,b){
-c=a*b;
-return c}
+return (a*b)}
 
 
 function divide (a,b){
-c=a/b;
-return c}
+return (a/b)}
 
 
 function inc(n) {
