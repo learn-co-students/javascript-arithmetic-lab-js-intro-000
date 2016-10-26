@@ -1,4 +1,4 @@
-add(1 + 80)
-subtract(60 - 40)
-multiply(2 * 3.4)
-divide(5.0 / 2.5)
+function add(1 + 80)
+function subtract(60 - 40)
+function multiply(2 * 3.4)
+function divide(5.0 / 2.5)
