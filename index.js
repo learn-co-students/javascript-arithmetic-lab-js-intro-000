@@ -16,3 +16,20 @@ function multiply (a,b) {
   var many = a*b;
   return many;
 }
+
+function divide (b, a) {
+  var share=b/a;
+  return share;
+}
+
+
+function inc (n){
+  var increment = n+1;
+  return increment;
+}
+
+
+function dec(n) {
+  var decrement = n-1;
+  return decrement;
+}
