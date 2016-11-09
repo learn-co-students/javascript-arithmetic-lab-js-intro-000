@@ -33,3 +33,14 @@ function dec(n) {
   var decrement = n-1;
   return decrement;
 }
+
+
+function makeInt(n){
+  var parse = parseInt(n,"10");
+  return parse;
+}
+
+function preserveDecimal (n) {
+  var preserve = parseFloat (n);
+  return preserve;
+}
