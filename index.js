@@ -1,23 +1,25 @@
-function add () {
-
+function add (a, b) {
+ return a+b
 }
 
-function subtract () {
-
+function subtract (a, b) {
+ return a-b
 }
 
-function subtract () {
-
+function multiply (a, b) {
+ return a*b
 }
 
-function multiply () {
-  
+function divide (a, b) {
+ return a/b
 }
 
-function multiply () {
-  
+function inc (n) {
+  n++
+  return n
 }
 
-function divide () {
-  
+function dec (n) {
+  n--
+  return n
 }
