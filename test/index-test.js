@@ -40,6 +40,10 @@ describe('makeInt(n)', function() {
 
   it('returns NaN as appropriate', function() {
     expect(isNaN(makeInt('sldkjflksjf'))).toEqual(true)
+    // expect(addTwoNumbers(4,5)).toEqual(9)
+    // expect(heroeFinder('JKRowling')).toEqual("Harry Potter")
+    // var redVelvet = cakeMaker(['flour', 'butter', 'foodcoloring'], 'Bake at 400 for an hour')
+    // expect(redVelvet).toEqual('flourB')
   })
 })
 
