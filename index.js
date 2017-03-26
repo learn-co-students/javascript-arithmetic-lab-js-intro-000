@@ -23,14 +23,9 @@ function dec(n) {
 }
 
 function makeInt(n) {
-  return parseInt('a',10)
-  return parseInt('000',10)
-  return parseInt('sldkjflksjf',10)
+  return parseInt(n,10)
 }
 
 function preserveDecimal(n) {
-  return parseFloat('2.222')
-  return parseFloat('sldkjflksjf')
-
-
+  return parseFloat(n)
 }
