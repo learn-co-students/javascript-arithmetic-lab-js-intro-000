@@ -24,12 +24,12 @@ function dec(n)
   return (--n);
 
 }
-function makeInt(n)
+function makeInt('n')
 {
-  return n;
+  return 'n';
 }
 
-function preserveDecimal(n)
+function preserveDecimal('n')
 {
-  return n;
+  return 'n';
 }
