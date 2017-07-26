@@ -10,11 +10,11 @@ function multiply (a, b) {
 function divide (a, b) {
   return a / b;
 }
-var n = 0
+var n = 10
 function inc (n) {
   return n + 1;
 }
-var n = 0
+var n = 10
 function dec (n) {
   return n - 1;
 }
