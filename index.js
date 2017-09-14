@@ -23,5 +23,5 @@ function makeInt(a){
   return parseFloat(a);
 }
 function preserveDecimal(n){
-  parseFloat(n).toFixed(3);
+  return parseFloat(n);
 }
