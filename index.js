@@ -1,6 +1,6 @@
 var a, b
 
-a = Math.floor(Math.random() * 1000)
+a = Math.floor(Math.random() * 1000)  // generate a random number, round it down (Math.floor) to a whole number, and max = 999
 b = Math.floor(Math.random() * 1000)
 
 function add(a, b) {
