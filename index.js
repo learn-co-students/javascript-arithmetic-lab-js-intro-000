@@ -20,23 +20,23 @@ function divide(a, b) {
 }
 
 function inc(a) {
-  return(++a)
+  return(a += 1)
 }
 
 function inc(b) {
-  return(++b)
+  return(b += 1)
 }
 
 function dec(a) {
-  return(--a)
+  return(a -= 1)
 }
 
 function dec(b) {
-  return(--b)
+  return(b -= 1)
 }
 
 function makeInt(a) {
-  return parseInt(a.toString(), 10)
+  return parseInt(a.toString(), 10)  // "toString()" converts number to string, then parseInt turns string into number
 }
 
 function preserveDecimal(a) {
