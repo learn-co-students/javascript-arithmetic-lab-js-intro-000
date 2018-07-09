@@ -29,6 +29,9 @@ it('dec(n) decrements n and returns the result', function() {
   expect(dec(a)).toEqual(a - 1)
 })
 
+
+
+
 describe('makeInt(n)', function() {
   it('parses n as an integer and returns the parsed integer', function() {
     expect(makeInt(a.toString())).toEqual(a)
@@ -42,6 +45,18 @@ describe('makeInt(n)', function() {
     expect(isNaN(makeInt('sldkjflksjf'))).toEqual(true)
   })
 })
+
+
+// describe('sayHello(name)', function(){
+//   it('says hello to the name', function(){
+//     expect(sayHello("Nick")).toEqual("Hello, Nick")
+//     expect(sayHello("Abel")).toEqual("Hello, Abel")
+//   })
+// })
+
+
+
+
 
 describe('preserveDecimal(n)', function() {
   it('preserves n\'s decimals (it parses n as a floating point number) and returns the parsed number', function() {
