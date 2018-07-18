@@ -18,7 +18,7 @@ As you read through this lesson, you're going to be adding your solutions to `in
 The most fundamental math operations work as one might expect in JavaScript: `+` adds two numbers; `-` subtracts one number from another; `*` multiplies two numbers; and `/` divides one number by another. For example (as usual, follow along in console!)
 
 ``` javascript
-1 + 80 // 81
+1 + 80  // 81
 60 - 40 // 20
 2 * 3.4 // 6.8 (there's that floating-point arithmetic again...)
 5.0 / 2.5 // 2
