@@ -1,4 +1,4 @@
-JavaScript Arithmetic Lab
+IJavaScript Arithmetic Lab
 ---
 
 ## Objectives
