@@ -1,0 +1,9 @@
+var n=5
+function add(a,b){return a+=b}
+function subtract(a,b){return a-=b}
+function multiply(a,b){return a*=b}
+function divide(a,b){return a/=b}
+function inc(n){n++;return n}
+function dec(n){n--;return n}
+function makeInt(n,10){parseInt('n', 10); return n}
+function preserveDecimal(n){parseFloat('2.22222222222');return n}
