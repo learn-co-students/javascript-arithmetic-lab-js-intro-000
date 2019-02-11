@@ -24,3 +24,10 @@ function makeInt(n, base) {
   }
   return parse;
 }
+function preserveDecimal(n) {
+  var float = parseFloat(n);
+  if (isNaN(float)) {
+    return NaN;
+  }
+  return float;
+}
