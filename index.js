@@ -14,6 +14,13 @@ function inc(n) {
   return n += 1;   
 }
 function dec(n) {
-  return n -+ 1;
+  return n -= 1;
 }
-
+function makeInt(n, base) {
+  base = 10;
+  var parse = parseInt(n, base);
+  if (isNaN(parse)) {
+    return NaN;
+  }
+  return parse;
+}
