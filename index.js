@@ -51,7 +51,7 @@ function preserveDecimal(n){
   return parseFloat(n);
 }
 
-
+var n = 2.222
 function preserveDecimal(n){
-  return parseFloat("the quick brown fox jumped over the lazy dog");
+  return parseFloat(n);
 }
