@@ -51,7 +51,7 @@ function preserveDecimal(n){
   return parseFloat(n);
 }
 
-var n = 2.222
+///var n = 2.222
 function preserveDecimal(n){
   return parseFloat(n);
 }
