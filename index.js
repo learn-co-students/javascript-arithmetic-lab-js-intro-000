@@ -15,13 +15,11 @@ function divide(a, b){
 }
 
 function inc(n){
-  var answer = n++
-  return answer;
+  return ++n;
 }
 
 function dec(n){
-  var answer = n--
-  return answer;
+  return --n;
 }
 
 function makeInt(n){
