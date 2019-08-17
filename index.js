@@ -1,28 +1,25 @@
-var a = 1
-var b = 2
-var n = 3
 function add(a, b) {
-  return parseInt(a) + parseInt(b)
+  return a + b
 }
 
 function subtract(b, a) {
-  return parseInt(b) - parseInt(a)
+  return b - a
 }
 
 function multiply(a, b) {
-  return parseInt(a) * parseInt(b)
+  return a * b
 }
 
 function divide(a, b) {
-  return parseInt(a) / parseInt(b)
+  return a / b
 }
 
 function inc(n) {
-  return parseInt(n + 1)
+  return n + 1
 }
 
 function dec(n) {
-  return parseInt(n - 1)
+  return n - 1
 }
 
 function makeInt(n) {
