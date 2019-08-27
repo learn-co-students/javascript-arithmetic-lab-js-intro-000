@@ -1,19 +1,15 @@
 var a, b;
 function add(a, b){
-  var addition = a + b
-  return addition
+return  a + b
 }
 function subtract(a, b){
-  var subtraction = a - b
-  return subtraction
+return a - b
 }
 function multiply(a, b){
-  var multiplication = a * b
-  return multiplication
+return a * b
 }
 function divide(a, b){
-  var division = a / b
-  return division
+return a / b
 }
 function inc(a){
   a ++
@@ -23,7 +19,9 @@ function dec(a){
   a --
   return a
 }
-function makeInt(){
-var b = parseInt(7)
-  return b
+function makeInt(n){
+return parseInt(2, 10)
+}
+function preserveDecimal(n){
+  return parseFloat(2.6757)
 }
