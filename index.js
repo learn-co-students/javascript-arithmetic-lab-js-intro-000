@@ -15,3 +15,15 @@ function divide(a, b){
   var division = a / b
   return division
 }
+function inc(a){
+  a ++
+  return a
+}
+function dec(a){
+  a --
+  return a
+}
+function makeInt(){
+var b = parseInt(7)
+  return b
+}
