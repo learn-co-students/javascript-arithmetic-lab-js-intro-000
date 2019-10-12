@@ -1,14 +1,35 @@
-function add() {
-     200 + 37
+var a = 5
+var b = 2
+
+function add(a, b) {
+return a + b
 }
 
 function subtract(a, b) {
+ return a - b
 }
 
-function multiply() {
-  2 * 3.4
+function multiply(a, b) {
+return a * b
 }
 
-function divide() {
-  5.0 / 2.5
+function divide(a, b) {
+return a / b
+}
+
+
+function inc(n) {
+return n += 1
+}
+
+function dec(n) {
+  return n -= 1
+}
+
+function makeInt(n) {
+  return parseInt(n, 10)
+}
+
+function preserveDecimal (n) {
+  return parseFloat(n)
 }
