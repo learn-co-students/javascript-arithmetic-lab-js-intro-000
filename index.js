@@ -1,35 +1,25 @@
 function add(a, b) {
-  var number = a + b
-
-  return number
+  return a + b
 }
 
 function subtract(a, b) {
-  var number = a - b
-
-  return number
+  return a - b
 }
 
 function multiply(a, b) {
-  var number = a * b
-
-  return number
+  return a * b
 }
 
 function divide(a, b) {
-  var number = a / b
-
-  return number
+  return a / b
 }
 
 function inc(n) {
-  n++
-  return n
+  return n += 1
 }
 
 function dec(n) {
-  n--
-  return n
+  return n -= 1
 }
 
 function makeInt(n) {
