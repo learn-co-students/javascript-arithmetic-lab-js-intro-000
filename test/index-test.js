@@ -25,25 +25,25 @@ describe('basic math functions', function () {
   it('add(a, b) adds two numbers and returns the result', function() {
     expect(add(a, b)).toEqual(a + b)
   })
-  
+
   it('subtract(a, b) subtracts b from a and returns the result', function() {
     expect(subtract(a, b)).toEqual(a - b)
   })
-  
-  it('multiply(a, b) multiplies two numbers and returns the result', function() {
-    expect(multiply(a, b)).toEqual(a * b)
+
+  it('multiply(c, a) multiplies two numbers and returns the result', function() {
+    expect(multiply(c, a)).toEqual(c * a)
   })
-  
-  it('divide(a, b) divides a by b and returns the result', function() {
-    expect(divide(a, b)).toEqual(a / b)
+
+  it('divide(d, c) divides a by b and returns the result', function() {
+    expect(divide(d, c)).toEqual(d / c)
   })
-  
+
   it('increment(n) increments n and returns the result', function() {
-    expect(increment(a)).toEqual(a + 1)
+    expect(increment(a)).toEqual(a ++)
   })
-  
+
   it('decrement(n) decrements n and returns the result', function() {
-    expect(decrement(a)).toEqual(a - 1)
+    expect(decrement(a)).toEqual(a --)
   })
 })
 
