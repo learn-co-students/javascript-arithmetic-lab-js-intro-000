@@ -15,16 +15,25 @@ function divide(a, b) {
 }
 
 function increment(n) {
-  return +=n
+  return n += 1
 }
 
-/* function decrement(n) {
-
+function decrement(n) {
+  return n -= 1
 }
-Okay, now we're ready to write solutions for the next two functions:
-increment(n) and decrement(n).
-These methods should take in a number,
-and either increments the provided value by one or decrements
-it by one respectively,
-returning the result.
+
+function makeInt(n) {
+  return parseInt(n, 10)
+}
+
+
+function preserveDecimal(n) {
+ return parseFloat(n)
+}
+
+/*
+makeInt(string) should take in a string,
+parse it into an base 10 integer and return it.
+preserveDecimal(string) should take in a string,
+parse it into a float and return it.
 */
