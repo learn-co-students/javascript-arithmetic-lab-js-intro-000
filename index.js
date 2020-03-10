@@ -1,24 +1,19 @@
-function add(a, b) {
-  return a + b
+var number = 1
+function add() {
+    number += 80
 }
-function subtract(a, b) {
-  return a - b
+
+var number = 60
+function subtract() {
+    number -= 40
 }
-function divide(a, b) {
-  return a/b
+
+var number = 2
+function multiply() {
+    number *= 3.4
 }
-function multiply(a, b) {
-  return a * b
-}
-function increment(a) {
-  return a += 1
-}
-function decrement(a) {
-return a -= 1
-}
-function makeInt(string) {
-  return parseInt(string, 10)
-}
-function preserveDecimal(string) {
-  return parseFloat(string)
+
+var number = 5.0
+function divide() {
+    number /= 2.5
 }
