@@ -10,3 +10,19 @@ function mutiply(a,b){
 function divide(a,b){
   return a/b;
 }
+
+function increment(a){
+  return a++;
+}
+
+function decrement(b){
+  return b--;
+}
+
+function makeInt(a){
+  return parseInt(a,10);
+}
+
+funtion preserveDecimal(a){
+  return parseFloat(a);
+}
