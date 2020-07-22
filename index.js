@@ -31,6 +31,6 @@ function decrement(n) {
   return n -= 1
 }
 
-function makeInt(string) {
-  parseInt ('n', 10)
+function makeInt(a) {
+  return a.toString(a, 10)
 }
