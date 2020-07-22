@@ -11,7 +11,19 @@ function divide() {
 divide(5.0 / 2.5) // 2
 }
 
-var number = 500
-function add() {
-  add(number += 467)
+function add(a, b) {
+  return a + b
+}
+function subtract(a, b) {
+  return a - b
+}
+function multiply(a,b) {
+  return a * b
+}
+function divide(a, b) {
+  return a / b
+}
+
+function increment(a) {
+  return a + n
 }
