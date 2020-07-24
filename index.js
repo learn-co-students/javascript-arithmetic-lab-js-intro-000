@@ -33,5 +33,5 @@ function decrement(n) {
 
 var base = 10
 function makeInt(a, base) {
-  return a = a.toString(0)
+  return a = a.toString(10)
 }
