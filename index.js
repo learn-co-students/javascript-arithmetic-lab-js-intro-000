@@ -31,6 +31,7 @@ function decrement(n) {
   return n -= 1
 }
 
-function makeInt(a) {
-  return a.toString(a, 10)
+var base = 10
+function makeInt(a, base) {
+  return a = a.toString(0)
 }
