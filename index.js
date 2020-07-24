@@ -31,7 +31,10 @@ function decrement(n) {
   return n -= 1
 }
 
-var base = 10
-function makeInt(a, base) {
-  return a = a.toString(10)
+function makeInt(n, base) {
+  return parseInt(n, 10)
+}
+
+function preserveDecimal(n) {
+  return parseFloat(n)
 }
