@@ -1,49 +1,98 @@
-function add (){
-  return 1+80
+function add() {
 }
 
-function subtract (){
-  return 60 - 40
+function subtract() {
 }
 
-function multiply (){
-  return 2 * 3.4
+function multiply() {
 }
 
-function divide (){
-  return 5.0 / 2.5
+function divide() {
 }
 
-function add (a, b){
-  return a + b
+function add(a, b) {
+  return a += b;
 }
 
-function subtract (a, b){
-  return a - b
+function subtract(a, b) {
+  return a -= b;
 }
 
-function multiply (a, b){
-  return a * b
+function multiply(a, b) {
+  return a *= b;
 }
 
-function divide (a, b){
-  return a / b
+function divide (a, b) {
+  return a /= b;
 }
 
-function increment(n){
-  n++
-  return n++
+function increment(n) {
+  n++;
+  return n
 }
 
-function decrement(n){
-  n--
-  return n--
+function decrement(n) {
+  n--;
+  return n
 }
 
-function makeInt(n){
-  return parseInt(n, 10)
+function makeInt(n) {
+  return parseInt(n, 10);
 }
 
-function preserveDecimal(n){
-  return parseFloat(n, 10)
+function preserveDecimal(n) {
+  return parseFloat(n);
+}
+
+
+// First way I solved JS Arithmetic Lab
+
+// function add (){
+//   return 1+80
+// }
+//
+// function subtract (){
+//   return 60 - 40
+// }
+//
+// function multiply (){
+//   return 2 * 3.4
+// }
+//
+// function divide (){
+//   return 5.0 / 2.5
+// }
+//
+// function add (a, b){
+//   return a + b
+// }
+//
+// function subtract (a, b){
+//   return a - b
+// }
+//
+// function multiply (a, b){
+//   return a * b
+// }
+//
+// function divide (a, b){
+//   return a / b
+// }
+//
+// function increment(n){
+//   n++
+//   return n++
+// }
+//
+// function decrement(n){
+//   n--
+//   return n--
+// }
+//
+// function makeInt(n){
+//   return parseInt(n, 10)
+// }
+//
+// function preserveDecimal(n){
+//   return parseFloat(n, 10)
 }
