@@ -10,6 +10,7 @@ describe('basic math functions', function () {
     expect(add).toExist
   })
 
+
   it("'subtract()' is a valid function", function() {
     expect(subtract).toExist
   })
@@ -25,23 +26,23 @@ describe('basic math functions', function () {
   it('add(a, b) adds two numbers and returns the result', function() {
     expect(add(a, b)).toEqual(a + b)
   })
-  
+
   it('subtract(a, b) subtracts b from a and returns the result', function() {
     expect(subtract(a, b)).toEqual(a - b)
   })
-  
+
   it('multiply(a, b) multiplies two numbers and returns the result', function() {
     expect(multiply(a, b)).toEqual(a * b)
   })
-  
+
   it('divide(a, b) divides a by b and returns the result', function() {
     expect(divide(a, b)).toEqual(a / b)
   })
-  
+
   it('increment(n) increments n and returns the result', function() {
     expect(increment(a)).toEqual(a + 1)
   })
-  
+
   it('decrement(n) decrements n and returns the result', function() {
     expect(decrement(a)).toEqual(a - 1)
   })
@@ -73,3 +74,39 @@ describe('preserveDecimal(n)', function() {
     expect(isNaN(preserveDecimal('sldkjflksjf'))).toEqual(true)
   })
 })
+function add(){
+  return a+b;
+}
+function add(a,b){
+  return a+b;
+}
+function subtract(){
+  return a-b;
+}
+function subtract(a,b){
+  return a-b;
+}
+function multiply(){
+  return a*b;
+}
+function multiply(a,b){
+  return a*b;
+}
+function divide(){
+  return a/b;
+}
+function divide(a,b){
+  return a/b;
+}
+function increment(n){
+  return ++n;
+}
+function decrement(n){
+  return --n;
+}
+function makeInt(n){
+  return parseInt(n,10);
+}
+function preserveDecimal(n){
+  return parseFloat(n);
+}
