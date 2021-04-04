@@ -15,19 +15,18 @@ function divide(a, b) {
 }
 
 function increment(n) {
-  return n +=
+  return n += 1
 }
 
 function decrement(n) {
-  return n -=
+  return n -= 1
 }
 
-function makeInt(n) {
-  parseInt('n', 10)
-  return string;
+function makeInt(string) {
+  return parseInt(string, 10);
 }
 
-function preserveDecimal(n) {
-  parseFloat('n');
-  return string;
+function preserveDecimal(string) {
+  return parseFloat(string);
+
 }
