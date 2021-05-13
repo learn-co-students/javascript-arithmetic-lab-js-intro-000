@@ -20,21 +20,17 @@ function divide(a, b) {
 }
 
 function increment(n) {
-  n++
-  return n;
+  return n += 1;
 }
 
 function decrement(n) {
-  n--
-  return n;
+  return n -= 1;
 }
 
 function makeInt(n) {
-  var answer = parseInt(n, 10)
-  return answer;
+  return parseInt(n, 10);
 }
 
 function preserveDecimal(n) {
-  var answer = parseFloat(n)
-  return answer;
+  return parseFloat(n);
 }
